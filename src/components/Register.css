@@ -1,0 +1,33 @@
+.invalid {
+    color: red;
+  }
+  
+  .valid {
+    color: green;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .errmsg {
+    margin: 10px 0;
+    color: red;
+    font-size: 16px;
+  }
+  
+  .offscreen {
+    position: absolute;
+    left: -10000px;
+  }
+  p{
+   padding: 20px;
+  }
+  #username,#confirm_pwd{
+    padding: 10px;
+  }
+  #BTN_signUp{
+    margin-top: 35px;
+    padding: 10px;
+    background-color: #45a049;
+  }

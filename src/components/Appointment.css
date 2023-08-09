@@ -1,0 +1,84 @@
+/* Appointment.css */
+
+.appointment-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .appointment-card {
+    background-color: #1f2b6c;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 50%;
+    max-width: 500px;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    color: #fcfefe;
+  }
+  
+  .schedule-title {
+    font-size: 2.5rem;
+    font-family: 'Yeseva_One';
+    color: #bfd2f8;
+    text-align: center;
+  }
+  
+  .schedule-day {
+    display: flex;
+    align-items: center;
+  }
+  
+  .day {
+    font-size: 1.5rem;
+    font-family: 'Work_Sans';
+    flex: 1;
+  }
+  
+  .icon {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  
+  .time {
+    font-size: 1.2rem;
+    font-family: 'Work_Sans';
+    flex: 2;
+  }
+  
+  .decoration {
+    width: 3rem;
+    height: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .emergency {
+    display: flex;
+    align-items: center;
+  }
+  
+  .emergency-icon {
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1rem;
+  }
+  
+  .emergency-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .emergency-title {
+    font-size: 1.5rem;
+    font-family: 'Work_Sans';
+    font-weight: bold;
+  }
+  
+  .emergency-phone {
+    font-size: 1.2rem;
+    font-family: 'Work_Sans';
+  }
+  
+  
